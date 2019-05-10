@@ -4,7 +4,7 @@ import {IMAGE_PATH} from '../actions/config'
 
 
 export default function Card(data) {
-  const movie = `/movie/${data.data.id}`
+  const movie = `/site/movie/${data.data.id}`
   return (
    <div className="" id="card">
    <Link to={movie}>

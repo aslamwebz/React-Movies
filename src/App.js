@@ -13,10 +13,10 @@ function App() {
         <Router history={history}>
             <Navbar />
             <Switch>
-                <Route path='/' component={Main}/>
+                <Route exact path='/' component={Main}/>
                 <Route path='/React-Movies/' component={Main}/>
-                <Route path='/search/:query' component={Search}   />
-                <Route path='/movie/:id' component={MovieDetails}   />
+                <Route path='/:site/search/:query' component={Search}   />
+                <Route path='/:site/movie/:id' component={MovieDetails}   />
             </Switch>
         </Router >
     </div>

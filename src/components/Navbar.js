@@ -12,7 +12,7 @@ const Navbar = (props) => {
         history.push('')
         e.preventDefault()
         // Search(input);
-        let query = `/search/${input}`
+        let query = `site/search/${input}`
         console.log(query)
         history.push(query)
     }
@@ -20,7 +20,7 @@ const Navbar = (props) => {
     const content = (
        <div>
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark ">
-                <Link className="navbar-brand" to="/">React Movies </Link>
+                <Link className="navbar-brand" to="/React-Movies/">React Movies </Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
