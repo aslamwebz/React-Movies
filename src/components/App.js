@@ -1,9 +1,7 @@
 import React from 'react'
 import Sliders from './Sliders';
-import { withRouter } from "react-router-dom";
 
-
-const Main = (props) => {
+const App = (props) => {
 
     
 
@@ -14,4 +12,4 @@ const Main = (props) => {
     return data
 }
 
-export default withRouter(Main);
+export default App;

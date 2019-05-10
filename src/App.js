@@ -12,8 +12,8 @@ function App() {
     <div className="App">
         <Router history={history}>
             <Navbar />
-            <Main />
             <Switch>
+                <Route path='/' component={Main}/>
                 <Route path='/React-Movies/' component={Main}/>
                 <Route path='/search/:query' component={Search}   />
                 <Route path='/movie/:id' component={MovieDetails}   />
