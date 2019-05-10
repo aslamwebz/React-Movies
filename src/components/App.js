@@ -3,8 +3,10 @@ import Sliders from './Sliders';
 
 const App = (props) => {
 
+    
+
     const data = (
-            <Sliders />
+        <Sliders />
     )
   
     return data
