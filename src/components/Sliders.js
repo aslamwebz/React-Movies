@@ -7,6 +7,7 @@ const Sliders = () => {
   
     const popular = GetPopular()
     const latest = GetLatest()
+    
     const content = (
         <React.Fragment>
           <div id="movies">

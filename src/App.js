@@ -13,7 +13,7 @@ function App() {
         <Router history={history}>
             <Navbar />
             <Switch>
-                <Route exact path='/' component={Main}/>
+                <Route exact path='/React-Movies' component={Main}/>
                 <Route path='/search/:query' component={Search}   />
                 <Route path='/movie/:id' component={MovieDetails}   />
             </Switch>
